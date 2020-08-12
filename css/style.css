@@ -108,3 +108,8 @@ body{
 .subtext{
     font-size: .7em;
 }
+
+.HeaderContainer{
+    margin: 6% 0;
+}
+
