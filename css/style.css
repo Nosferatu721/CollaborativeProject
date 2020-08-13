@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     font-family: 'Public Sans', sans-serif;;
     font-weight: 300, 400, 700;
@@ -157,3 +158,93 @@ background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-2
 background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 transition: background 3s;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Public Sans", sans-serif;
+  color: hsl(233, 26%, 24%);
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.main-container {
+  padding: 0 5%;
+  background-color: hsl(220, 16%, 96%);
+}
+
+.main-info {
+  padding: 20px 0;
+}
+.main-info h2 {
+  padding: 10px 0;
+  font-size: 28px;
+  font-weight: 400;
+}
+.main-info p {
+  color: hsl(233, 8%, 62%);
+}
+
+.main-cards-container {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main-cards-container .main-card {
+  margin: 5%;
+}
+.main-card .card-img {
+  margin: 15px 0;
+}
+.main-card .card-title {
+  margin: 15px 0;
+	font-weight: 400;
+}
+.main-card .card-text {
+  color: hsl(233, 8%, 62%);
+}
+
+@media screen and (max-width: 767px) {
+  .main-info {
+    padding: 10px 0;
+  }
+  .main-cards-container {
+    margin: 10px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main-card .card-img {
+    margin: 5px 0;
+  }
+}
+@media screen and (max-width: 375px) {
+	p {
+		font-size: 1.4rem;
+	}
+  .main-cards-container {
+    grid-template-columns: 1fr;
+  }
+  .main-cards-container .main-card {
+    margin: 0;
+  }
+  .main-card .card-img {
+    position: relative;
+    top: 0;
+    left: 38%;
+  }
+  .main-card .card-title {
+    margin: 5px 0;
+  }
+}
+>>>>>>> 8be7b339afa19fe192b01db58916ea5e188a5598
