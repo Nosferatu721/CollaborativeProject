@@ -1,4 +1,5 @@
 # CollaborativeProject
+
 # Front-end Style Guide
 
 ## Layout
@@ -6,10 +7,7 @@
 The designs were created to the following widths:
 
 - Mobile: 375px
-<<<<<<< HEAD
-=======
 - Tablet: 767px
->>>>>>> 8be7b339afa19fe192b01db58916ea5e188a5598
 - Desktop: 1440px
 
 ## Colors

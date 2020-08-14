@@ -1,164 +1,3 @@
-<<<<<<< HEAD
-body{
-    font-family: 'Public Sans', sans-serif;;
-    font-weight: 300, 400, 700;
-    font-size: 18px;
-}
-/* SECTION - seccion de responsive design */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-}
-
-.footer{
-    display: flex;
-    width: 100%;
-    height: 150px;
-    background-color: hsl(233, 26%, 24%);
-}
-
-.left-section-footer{
-    /*border:1px solid;*/
-    width: 250px;
-    height: 148px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.logo-img {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0 50px 0;
-}
-
-.social{
-    display: flex;
-    justify-content: center;
-}
-
-
-.social-link{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-}
-
-
-.social-link.facebook{
-    background-image: url(../img/icon-facebook.svg);
-    background-repeat: no-repeat;
-}
-.social-link.youtube{
-    background-image: url(../img/icon-youtube.svg);
-    background-repeat: no-repeat;
-}
-
-.social-link.twitter{
-    background-image: url(../img/icon-twitter.svg);
-    background-repeat: no-repeat;
-}
-
-.social-link.pinterest{
-    background-image: url(../img/icon-pinterest.svg);
-    background-repeat: no-repeat;
-}
-
-.social-link.instagram{
-    background-image: url(../img/icon-instagram.svg);
-    background-repeat: no-repeat;
-}
-
-.more-info{
-    display: flex;
-    width: 200;
-    height: 148px;
-    color: hsl(0, 0%, 100%);
-    /*border: 1px solid;*/
-}
-
-.more-info a{
-    display: flex;
-    margin-top: 15px;
-    cursor: pointer;
-}
-
-.more-info a:hover{
-    color:hsl(136, 65%, 51%); 
-}
-
-.more-info1{
-    margin-left: 10px;
-    margin-right: 65px; 
-    margin-top: 15px;  
-}
-
-.more-info2{ 
-    margin-top: 15px;  
-}
-
-.inv{
-    margin-left: 450px;
-    width: 300px;
-    height: 148px;
-    /*border: 1px solid #fff;*/
-    color: hsl(0, 0%, 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.inv button{
-    font-size: 18px;
-    width: 180px;
-    height: 50px;
-    background-color: hsl(136, 65%, 51%);
-    border-radius: 50px;
-    color: hsl(0, 0%, 100%);
-    border: none;
-    cursor: pointer;
-}
-
-.inv button:hover{
-    background: #a8ff78;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-transition: background 3s;
-}
-=======
 * {
   margin: 0;
   padding: 0;
@@ -168,7 +7,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Public Sans", sans-serif;
+  font-family: 'Public Sans', sans-serif;
   color: hsl(233, 26%, 24%);
   font-size: 1.6rem;
 }
@@ -210,7 +49,7 @@ body {
 }
 .main-card .card-title {
   margin: 15px 0;
-	font-weight: 400;
+  font-weight: 400;
 }
 .main-card .card-text {
   color: hsl(233, 8%, 62%);
@@ -229,9 +68,9 @@ body {
   }
 }
 @media screen and (max-width: 375px) {
-	p {
-		font-size: 1.4rem;
-	}
+  p {
+    font-size: 1.4rem;
+  }
   .main-cards-container {
     grid-template-columns: 1fr;
   }
@@ -247,4 +86,131 @@ body {
     margin: 5px 0;
   }
 }
->>>>>>> 8be7b339afa19fe192b01db58916ea5e188a5598
+
+/*==================================*\
+  Footer
+\*==================================*/
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: hsl(233, 26%, 24%);
+}
+
+.left-section-footer {
+  /*border:1px solid;*/
+  width: 250px;
+  height: 148px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-img {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 50px 0;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
+
+.social-link.facebook {
+  background-image: url(../img/icon-facebook.svg);
+  background-repeat: no-repeat;
+}
+
+.social-link.youtube {
+  background-image: url(../img/icon-youtube.svg);
+  background-repeat: no-repeat;
+}
+
+.social-link.twitter {
+  background-image: url(../img/icon-twitter.svg);
+  background-repeat: no-repeat;
+}
+
+.social-link.pinterest {
+  background-image: url(../img/icon-pinterest.svg);
+  background-repeat: no-repeat;
+}
+
+.social-link.instagram {
+  background-image: url(../img/icon-instagram.svg);
+  background-repeat: no-repeat;
+}
+
+.more-info {
+  display: flex;
+  width: 200;
+  height: 148px;
+  color: hsl(0, 0%, 100%);
+  /*border: 1px solid;*/
+}
+
+.more-info a {
+  display: flex;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.more-info a:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+.more-info1 {
+  margin-left: 10px;
+  margin-right: 65px;
+  margin-top: 15px;
+}
+
+.more-info2 {
+  margin-top: 15px;
+}
+
+.inv {
+  margin-left: 450px;
+  width: 300px;
+  height: 148px;
+  /*border: 1px solid #fff;*/
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inv button {
+  font-size: 18px;
+  width: 180px;
+  height: 50px;
+  background-color: hsl(136, 65%, 51%);
+  border-radius: 50px;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  cursor: pointer;
+}
+
+.inv button:hover {
+  background: #a8ff78; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #78ffd6,
+    #a8ff78
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #78ffd6,
+    #a8ff78
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: background 3s;
+}
