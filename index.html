@@ -13,7 +13,39 @@
   </head>
 
   <body>
-    <!-- nav -->
+    <header class="header">
+      <div class="overlay has-fade"></div>
+      <div class="container">
+        <nav class="flex flex-jc-sb flex-ai-c">
+          <a href="#" class="header__logo">
+            <img src="./img/logo.svg" alt="logo" />
+          </a>
+          <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+
+          <div class="header__links flex hide-for-mobile">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+          </div>
+          <a href="#" class="button header__cta hide-for-mobile"
+            >Request Invite</a
+          >
+        </nav>
+        <div class="header__menu container has-fade">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+        </div>
+      </div>
+    </header>
     <!-- hero-->
     <main class="main-container">
       <div class="container">
@@ -95,6 +127,7 @@
         <button>Request invite</button>
         <p>© EasyBank. All Rights Reserved.</p>
       </div>
+      <script src="./js/home.js"></script>
     </footer>
   </body>
 </html>
