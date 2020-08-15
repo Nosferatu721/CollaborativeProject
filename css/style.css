@@ -415,7 +415,7 @@ button:hover,
   display: inline-block;
   width: 20px;
   height: 20px;
-  padding: 5px;
+  padding: 15px;
 }
 
 .social-link.facebook {
@@ -492,6 +492,7 @@ button:hover,
   color: hsl(0, 0%, 100%);
   border: none;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .inv button:hover {
@@ -507,4 +508,5 @@ button:hover,
     #a8ff78
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   transition: background 3s;
+  color: #2d314d;
 }
