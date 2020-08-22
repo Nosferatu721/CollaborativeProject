@@ -304,12 +304,69 @@ button:hover,
   Hero
 \*===========*/
 
+.hero-container {
+  background: hsl(0, 0%, 98%);
+}
+
+.hero-container .container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "details img";
+  height: 400px;
+  padding-right: 0;
+}
+
+.hero-details {
+  grid-area: details;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.hero-details h1 {
+  font-weight: normal;
+  color: hsl(233, 26%, 24%);
+  margin: 1rem 0;
+  font-size: 4rem;
+}
+
+.hero-details p {
+  margin: 1rem 0 2rem;
+}
+
+.hero-details .button {
+  width: 200px;
+  text-align: center;
+}
+
+.hero-img {
+  grid-area: img;
+  height: inherit;
+  background-image: url(../img/bg-intro-desktop.svg);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: -35px;
+  position: relative;
+}
+
+.hero-img img {
+  position: absolute;
+  height: 540px;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 /*===========*\
   Main
 \*===========*/
 
 .main-container {
-  padding: 0 5%;
+  padding: 4rem 5%;
   background-color: hsl(220, 16%, 96%);
 }
 
