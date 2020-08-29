@@ -309,7 +309,7 @@ button:hover,
 \*===========*/
 
 .main-container {
-  padding: 0 5%;
+  padding: 1px 5%;
   background-color: hsl(220, 16%, 96%);
 }
 
