@@ -54,6 +54,10 @@ a:hover {
   align-items: center;
 }
 
+.flex-fw-w {
+  flex-wrap: wrap;
+}
+
 /* Button */
 .button {
   font-size: 1.6rem;
@@ -386,11 +390,8 @@ button:hover,
 \*===========*/
 
 .footer {
-  display: flex;
-  max-width: 1440px; /*width 100%*/
   height: auto; /*150px*/
   background-color: hsl(233, 26%, 24%);
-  flex-wrap: wrap;
 }
 
 .left-section-footer {
@@ -449,7 +450,7 @@ button:hover,
 
 .more-info {
   display: flex;
-  width: 200;
+  width: 45%;
   height: 148px;
   color: hsl(0, 0%, 100%);
   /*border: 1px solid;*/
@@ -477,7 +478,6 @@ button:hover,
 }
 
 .inv {
-  margin-left: 450px;
   width: 300px;
   height: 148px;
   /*border: 1px solid #fff;*/
@@ -523,6 +523,7 @@ button:hover,
     margin: 0 auto;
   }
   .more-info {
+    width: auto;
     margin: 0 auto;
   }
   .inv {
