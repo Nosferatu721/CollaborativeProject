@@ -54,6 +54,10 @@ a:hover {
   align-items: center;
 }
 
+.flex-fw-w {
+  flex-wrap: wrap;
+}
+
 /* Button */
 .button {
   font-size: 1.6rem;
@@ -309,7 +313,7 @@ button:hover,
 \*===========*/
 
 .main-container {
-  padding: 0 5%;
+  padding: 1px 5%;
   background-color: hsl(220, 16%, 96%);
 }
 
@@ -386,11 +390,8 @@ button:hover,
 \*===========*/
 
 .footer {
-  display: flex;
-  max-width: 1440px;/*width 100%*/
   height: auto; /*150px*/
   background-color: hsl(233, 26%, 24%);
-  flex-wrap: wrap;
 }
 
 .left-section-footer {
@@ -449,7 +450,7 @@ button:hover,
 
 .more-info {
   display: flex;
-  width: 200;
+  width: 45%;
   height: 148px;
   color: hsl(0, 0%, 100%);
   /*border: 1px solid;*/
@@ -477,7 +478,6 @@ button:hover,
 }
 
 .inv {
-  margin-left: 450px;
   width: 300px;
   height: 148px;
   /*border: 1px solid #fff;*/
@@ -490,58 +490,30 @@ button:hover,
 }
 
 .inv button {
-  font-size: 18px;
-  width: 180px;
-  height: 50px;
-  background-color: hsl(136, 65%, 51%);
-  border-radius: 50px;
-  color: hsl(0, 0%, 100%);
-  border: none;
-  cursor: pointer;
   margin-bottom: 20px;
-  flex-wrap: wrap;
-}
-
-.inv button:hover {
-  background: #a8ff78; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #78ffd6,
-    #a8ff78
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #78ffd6,
-    #a8ff78
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  transition: background 3s;
-  color: #2d314d;
-}
-
-@media screen and (max-width: 1440px) {
-
 }
 
 @media screen and (max-width: 767px) {
-  .left-section-footer{
+  .left-section-footer {
     margin: 0 auto;
-    }
-    .more-info{
-      margin: 0 auto;
-    }
-    .inv{
-      margin: 0 auto;
-    }
+  }
+  .more-info {
+    width: auto;
+    margin: 0 auto;
+  }
+  .inv {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 375px) {
- .left-section-footer{
-   margin: 0 auto;
-   }
-   .more-info{
-     margin: 0 auto;
-   }
-   .inv{
-     margin: 0 auto;
-   } 
+  .left-section-footer {
+    margin: 0 auto;
+  }
+  .more-info {
+    margin: 0 auto;
+  }
+  .inv {
+    margin: 0 auto;
+  }
 }
