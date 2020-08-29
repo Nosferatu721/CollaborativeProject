@@ -1,9 +1,9 @@
 # CollaborativeProject
+# Frontend Mentor - Easybank landing page
 
-# Front-end Style Guide
+![Design preview for the Easybank landing page coding challenge](./img/desktop-design.jpg)
 
-## Layout
-
+## Welcome! 👋❤
 The designs were created to the following widths:
 
 - Mobile: 375px
