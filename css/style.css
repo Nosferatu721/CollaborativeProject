@@ -387,7 +387,7 @@ button:hover,
 
 .footer {
   display: flex;
-  max-width: 1440px;/*width 100%*/
+  max-width: 1440px; /*width 100%*/
   height: auto; /*150px*/
   background-color: hsl(233, 26%, 24%);
   flex-wrap: wrap;
@@ -518,30 +518,26 @@ button:hover,
   color: #2d314d;
 }
 
-@media screen and (max-width: 1440px) {
-
-}
-
 @media screen and (max-width: 767px) {
-  .left-section-footer{
+  .left-section-footer {
     margin: 0 auto;
-    }
-    .more-info{
-      margin: 0 auto;
-    }
-    .inv{
-      margin: 0 auto;
-    }
+  }
+  .more-info {
+    margin: 0 auto;
+  }
+  .inv {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 375px) {
- .left-section-footer{
-   margin: 0 auto;
-   }
-   .more-info{
-     margin: 0 auto;
-   }
-   .inv{
-     margin: 0 auto;
-   } 
+  .left-section-footer {
+    margin: 0 auto;
+  }
+  .more-info {
+    margin: 0 auto;
+  }
+  .inv {
+    margin: 0 auto;
+  }
 }
